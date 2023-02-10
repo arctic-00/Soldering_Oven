@@ -1,6 +1,14 @@
 // Uses formula to simulate energy required to reach a given temperature
 // Constants A and B need to be measured for different ovens used
 
+// Code needs to be merged with PID code to get better long term temperature stability
+// However it does not overshoot temperature like PID code and reached the required temperature quicker.
+
+// This code lack all customizability
+
+// Uses opamp to read temperature
+
+
 
 //pins
 #define TempPin A1
