@@ -1,9 +1,6 @@
-/*
-   AutoPID BasicTempControl Example Sketch
+// Uses an Op-amp to amplify a K-type thermocouple temperature reading.
+// Uses PID to control temperature
 
-   This program reads a temperature probe as input, potentiometer as setpoint, drives an analog output.
-   It changes the colour of an RGB LED dependinding on the relation between the temperature of the oven and the set temperature
-*/
 #include <AutoPID.h>
 #include <SPI.h>
 
