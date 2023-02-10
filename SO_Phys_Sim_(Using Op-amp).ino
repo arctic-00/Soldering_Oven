@@ -1,3 +1,6 @@
+// Uses formula to simulate energy required to reach a given temperature
+// Constants A and B need to be measured for different ovens used
+
 
 //pins
 #define TempPin A1
