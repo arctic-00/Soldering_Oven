@@ -1,24 +1,20 @@
+//   Controls a Toaster Oven to be used for reflow soldering.
 
-/*
-   AutoPID BasicTempControl Example Sketch
 
-   This program reads a dallas temperature probe as input, potentiometer as setpoint, drives an analog output.
-   It lights an LED when the temperature has reached the setpoint.
-*/
+
 #include <AutoPID.h>
 #include <SPI.h>
 
 
 // 0: MAX6675   1: MAX31855
 #define TEMP_SENSOR 0
-// #define TEMP_SENSOR 1;
 
 // #define USE_SERIAL
 // #define USE_RGB_INDICATOR
 #define USE_OLED
 
 // Pins
-#define POT_PIN A0
+#define POT_PIN A0   // Used for temperature control
 #define OUTPUT_PIN 6
 #define LED_PIN 7
 // RGB LED pins
