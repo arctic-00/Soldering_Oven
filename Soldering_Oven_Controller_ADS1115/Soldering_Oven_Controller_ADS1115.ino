@@ -1,9 +1,5 @@
-/*
-   AutoPID BasicTempControl Example Sketch
+// Uses an ADC to read a K-type thermocouple's temperature
 
-   This program reads a temperature probe as input, potentiometer as setpoint, drives an analog output.
-   It changes the colour of an RGB LED dependinding on the relation between the temperature of the oven and the set temperature
-*/
 #include <AutoPID.h>
 #include<ADS1115_WE.h> 
 #include<Wire.h>
